@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lan="es">
+<head>
+	<meta charset="utf-8">
+	<title>Prueba de componentes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.3.0.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.3.0.js"></script>
+</head>
+<body>
+	<!--Inicio de la pagina inicio-->
+	<div data-role="page" id="inicio">
+		
+		<!--Inicio del header-->
+		<div data-role="header" data-theme="b">
+			<a href="#inicio" data-icon="home">Inicio</a>
+			<h1><img src="images/logo.png"></h1>
+			<a href="#productos" data-icon="grid">Productos</a>
+
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#acerca" data-icon="star" data-theme="e">Acerca</a></li>
+					<li><a href="#productos" data-icon="check" data-theme="e">Productos</a></li>
+					<li><a href="#sucursales" data-icon="search" data-theme="e">Sucursales</a></li>
+					<li><a href="#contactos" data-icon="info" data-theme="e">Contactanos</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!--Fin del header-->
+
+		<!--Inicio del contenido-->
+		<div data-role="content" data-theme="e">
+			<img src="images/slide-2.png" style="height:300px;width: 100%">
+			<ul data-role="listview" data-inset="true" data-split-icon="gear" data-split-theme="d">
+			<li data-role="list-divider">
+				Promociones del día
+			</li>
+
+			<li>
+				<a href="#">
+					<img src="images/oferta.png">
+					<h2>Promocion 1</h2>
+					<p>Descripción de la promoción</p>
+				</a>
+				<a href="#promo" data-rel="popup" data-position-to="window" data-transition="pop">
+					Más información
+				</a>
+			</li>
+			
+			<li>
+				<a href="#">
+					<img src="images/oferta2.png">
+					<h2>Promocion 2</h2>
+					<p>Descripción de la promoción</p>
+				</a>
+				<a href="#promo" data-rel="popup" data-position-to="window" data-transition="pop">
+					Más información
+				</a>
+			</li>
+
+			<li>
+				<a href="#">
+					<img src="images/oferta.png">
+					<h2>Promocion 3</h2>
+					<p>Descripción de la promoción</p>
+				</a>
+				<a href="#promo" data-rel="popup" data-position-to="window" data-transition="pop">
+					Más información
+				</a>
+			</li>
+
+			</ul>
+
+			<div data-role="popup" id="promo" data-theme="d" class="ui-content" data-overlay-theme="b">
+				<h3>Promociones</h3>
+				<p>Los mejores precios solo en linea ¡Aprovecha estas ofertas!</p>
+				<a href="index.html" data-role="button" data-rel="back" data-theme="b" data-icon="check" data-mini="true" data-inline="true">Comprar a solo $10.99
+				</a>	
+			</div>
+
+		</div>
+
+		<!--Fin del contenido-->
+
+		<!--Inicio del footer-->
+		<div data-role="footer" data-theme="b">
+			<h4>Pie de pagina</h4>
+		</div>
+		<!--Fin del footer-->
+
+	</div>
+	<!--Fin de la pagina inicio-->
+
+
+	<!--Inicio de la pagina Acerca-->
+	<div data-role="page" id="acerca">
+		
+		<!--Inicio del header-->
+		<div data-role="header" data-theme="b">
+			<a href="#inicio" data-icon="home">Inicio</a>
+			<h1><img src="images/logo.png"></h1>
+			<a href="#productos" data-icon="grid">Productos</a>
+
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#acerca" data-icon="star" data-theme="e">Acerca</a></li>
+					<li><a href="#productos" data-icon="check" data-theme="e">Productos</a></li>
+					<li><a href="#sucursales" data-icon="search" data-theme="e">Sucursales</a></li>
+					<li><a href="#contactos" data-icon="info" data-theme="e">Contactanos</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!--Fin del header-->
+
+		<!--Inicio del contenido de Acerca-->
+		<div data-role="content" data-theme="e">
+
+			<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+
+				<div data-role="collapsible" data-theme="b" data-content-theme="b">
+					<h3>Mision Empresarial</h3>
+					<p>Puebal es el mejor equipo del mundo dsakdskad sanas jsan jdk skhy suwj sjw sjwhdwk kwdb wjsbj dhdfu wydhhfbn wmspqidhfl sdkashh asbabd wdba bsnwhw hsagwg agawfvs vsgw</p>
+				</div>
+				
+				<div data-role="collapsible" data-theme="b" data-content-theme="b">
+					<h3>Vision Empresarial</h3>
+					<p>Puebal es el mejor equipo del mundo dsakdskad sanas jsan jdk skhy suwj sjw sjwhdwk kwdb wjsbj dhdfu wydhhfbn wmspqidhfl sdkashh asbabd wdba bsnwhw hsagwg agawfvs vsgw</p>
+				</div>
+
+				<div data-role="collapsible" data-theme="b" data-content-theme="b">
+					<h3>Historia de la empresa</h3>
+					<p>Puebal es el mejor equipo del mundo dsakdskad sanas jsan jdk skhy suwj sjw sjwhdwk kwdb wjsbj dhdfu wydhhfbn wmspqidhfl sdkashh asbabd wdba bsnwhw hsagwg agawfvs vsgw</p>
+				</div>
+
+				<div data-role="collapsible" data-theme="b" data-content-theme="b">
+					<h3>Recursos Multimedia</h3>
+					<p>Puebal es el mejor equipo del mundo dsakdskad sanas jsan jdk skhy suwj sjw sjwhdwk kwdb wjsbj dhdfu wydhhfbn wmspqidhfl sdkashh asbabd wdba bsnwhw hsagwg agawfvs vsgw</p>
+
+					<video controls width="100%" poster="video/chef.jpg">
+						<source src="video/video.mp4" type="video/mp4">
+						<source src="video/video.ogg" type="video/ogg">
+						<source src="video/video.webm" type="video/webm">
+					</video>
+				</div>
+
+
+			</div>	
+
+		</div>
+
+		<!--Fin del contenido-->
+
+		<!--Inicio del footer-->
+		<div data-role="footer" data-theme="b">
+			<h4>Pie de pagina</h4>
+		</div>
+		<!--Fin del footer-->
+
+	</div>
+	<!--Fin de la pagina acerca-->	
+
+
+
+	<!--Inicio de la pagina productos-->
+	<div data-role="page" id="productos">
+		
+		<!--Inicio del header-->
+		<div data-role="header" data-theme="b">
+			<a href="#inicio" data-icon="home">Inicio</a>
+			<h1><img src="images/logo.png"></h1>
+			<a href="#productos" data-icon="grid">Productos</a>
+
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#acerca" data-icon="star" data-theme="e">Acerca</a></li>
+					<li><a href="#productos" data-icon="check" data-theme="e">Productos</a></li>
+					<li><a href="#sucursales" data-icon="search" data-theme="e">Sucursales</a></li>
+					<li><a href="#contactos" data-icon="info" data-theme="e">Contactanos</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!--Fin del header-->
+
+		<!--Inicio del contenido de productos-->
+		<div data-role="content" data-theme="e">	
+			<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="d" data-count-theme="b" data-filter="true" data-filter-placeholder="Busca tu producto">
+
+				<li data-role="list-divider">Nuestros Productos</li>
+
+				<li data-icon="gear">
+					<a href="#">
+						<img src="images/producto.png">
+						Producto 1
+						<br><br>
+						<p>Puebla e sel mejor equipo de todo el mundo ys iempre gana en la copa mx y en la liga mx tambien la libertadores hy sudamericana por que es el mejor equipo del mundo.</p>
+					</a>
+				</li>
+
+				<li data-icon="gear">
+					<a href="#">
+						<img src="images/producto.png">
+						Producto 2
+						<br><br>
+						<p>Puebla e sel mejor equipo de todo el mundo ys iempre gana en la copa mx y en la liga mx tambien la libertadores hy sudamericana por que es el mejor equipo del mundo.</p>
+					</a>
+				</li>
+				
+				<li data-icon="gear">
+					<a href="#">
+						<img src="images/producto.png">
+						Producto 3
+						<br><br>
+						<p>Puebla e sel mejor equipo de todo el mundo ys iempre gana en la copa mx y en la liga mx tambien la libertadores hy sudamericana por que es el mejor equipo del mundo.</p>
+					</a>
+				</li>
+				
+			</ul>
+
+		</div>
+
+		<!--Fin del contenido-->
+
+		<!--Inicio del footer-->
+		<div data-role="footer" data-theme="b">
+			<h4>Pie de pagina</h4>
+		</div>
+		<!--Fin del footer-->
+
+	</div>
+	<!--Fin de la pagina productos-->	
+
+
+
+	<!--Inicio de la pagina sucursales-->
+	<div data-role="page" id="sucursales">
+		
+		<!--Inicio del header-->
+		<div data-role="header" data-theme="b">
+			<a href="#inicio" data-icon="home">Inicio</a>
+			<h1><img src="images/logo.png"></h1>
+			<a href="#productos" data-icon="grid">Productos</a>
+
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#acerca" data-icon="star" data-theme="e">Acerca</a></li>
+					<li><a href="#productos" data-icon="check" data-theme="e">Productos</a></li>
+					<li><a href="#sucursales" data-icon="search" data-theme="e">Sucursales</a></li>
+					<li><a href="#contactos" data-icon="info" data-theme="e">Contactanos</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!--Fin del header-->
+
+		<!--Inicio del contenido de sucursales-->
+		<div data-role="content" data-theme="e">	
+			<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="d" data-count-theme="b" data-filter="true" data-filter-placeholder="Busca tu sucursal">
+
+				<li data-role="list-divider">Nuestras Sucursales</li>
+
+				<li data-icon="gear">
+					<a href="#">
+						<img src="images/sucursal.jpg">
+						Sucursal 1
+						<br><br>
+						<p>Puebla e sel mejor equipo de todo el mundo ys iempre gana en la copa mx y en la liga mx tambien la libertadores hy sudamericana por que es el mejor equipo del mundo.</p>
+					</a>
+				</li>
+
+				<li data-icon="gear">
+					<a href="#">
+						<img src="images/sucursal.jpg">
+						Sucursal 2
+						<br><br>
+						<p>Puebla e sel mejor equipo de todo el mundo ys iempre gana en la copa mx y en la liga mx tambien la libertadores hy sudamericana por que es el mejor equipo del mundo.</p>
+					</a>
+				</li>
+				
+				<li data-icon="gear">
+					<a href="#">
+						<img src="images/sucursal.jpg">
+						Sucursal 3
+						<br><br>
+						<p>Puebla e sel mejor equipo de todo el mundo ys iempre gana en la copa mx y en la liga mx tambien la libertadores hy sudamericana por que es el mejor equipo del mundo.</p>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+
+		<!--Fin del contenido-->
+
+		<!--Inicio del footer-->
+		<div data-role="footer" data-theme="b">
+			<h4>Pie de pagina</h4>
+		</div>
+		<!--Fin del footer-->
+
+	</div>
+	<!--Fin de la pagina sucursales-->	
+
+
+	<!--Inicio de la pagina contactos-->
+	<div data-role="page" id="contactos">
+		
+		<!--Inicio del header-->
+		<div data-role="header" data-theme="b">
+			<a href="#inicio" data-icon="home">Inicio</a>
+			<h1><img src="images/logo.png"></h1>
+			<a href="#productos" data-icon="grid">Productos</a>
+
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#acerca" data-icon="star" data-theme="e">Acerca</a></li>
+					<li><a href="#productos" data-icon="check" data-theme="e">Productos</a></li>
+					<li><a href="#sucursales" data-icon="search" data-theme="e">Sucursales</a></li>
+					<li><a href="#contactos" data-icon="info" data-theme="e">Contactanos</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!--Fin del header-->
+
+		<!--Inicio del contenido de Contactos-->
+		<div data-role="content" data-theme="e">	
+			<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+
+				<div data-role="collapsible" data-theme="b" data-content-theme="b">
+					<h3>Formulario de Contacto</h3>
+						<form id="form1" action="#" method="post">
+							<input type="text" placeholder="Escribe tu nombre" required>
+							<input type="email" placeholder="Escribe tu email" required>
+							<select>
+								<option>Comentario</option>
+								<option>Sugerencia</option>
+								<option>Pregunta</option>
+							</select>
+							<textarea placeholder="Escribe tu comentario" required></textarea>
+							<input type="submit" value="Enviar">
+
+						</form>
+				</div>
+				
+				<div data-role="collapsible" data-theme="b" data-content-theme="b">
+					<h3>Información de Contacto</h3>
+					<p>Email: sdasdasfasa</p>
+					<p>Celular: 21312312321</p>
+					<p>Dirección: Puebla</p>
+					<p>Redes Sociales</p>
+					<a href="#"><img src="images/facebook-logo.png"></a>
+					<a href="#"><img src="images/google-plus-logo.png"></a>
+					<a href="#"><img src="images/twitter-logo.png"></a>
+					<a href="#"><img src="images/youtube-logo.png"></a>
+				</div>
+
+				<div data-role="collapsible" data-theme="b" data-content-theme="b">
+					<h3>Mapa de ubicación</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.4739064230052!2d-98.20051778542208!3d19.042890387106887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc6280aa50887%3A0x5b21261581c701c5!2sCatedral+de+Puebla!5e0!3m2!1ses!2smx!4v1478795150632" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+
+
+			</div>	
+		</div>
+
+		<!--Fin del contenido-->
+
+		<!--Inicio del footer-->
+		<div data-role="footer" data-theme="b">
+			<h4>Pie de pagina</h4>
+		</div>
+		<!--Fin del footer-->
+
+	</div>
+	<!--Fin de la pagina contactos-->	
+
+
+
+</body>
+</html>
